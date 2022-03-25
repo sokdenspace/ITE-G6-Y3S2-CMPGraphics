@@ -2,7 +2,9 @@
 ### Date created: 03/25/2022
 ### Licence: Sok Den
 
-### https://github.com/sokdenspace/ITE-G6-Y3S2-Graphics-OpenGL
+------------------------------
+
+### GitHub: https://github.com/sokdenspace/ITE-G6-Y3S2-Graphics-OpenGL
 ### git clone https://github.com/sokdenspace/ITE-G6-Y3S2-Graphics-OpenGL.git
 
 ### Tools:
