@@ -1,11 +1,11 @@
-# Author: Sok Den
-# Date created: 03/25/2022
-# Licence: Sok Den
+##### Author: Sok Den
+##### Date created: 03/25/2022
+##### Licence: Sok Den
 
-# https://github.com/sokdenspace/ITE-G6-Y3S2-Graphics-OpenGL
-# git clone https://github.com/sokdenspace/ITE-G6-Y3S2-Graphics-OpenGL.git
+##### https://github.com/sokdenspace/ITE-G6-Y3S2-Graphics-OpenGL
+##### git clone https://github.com/sokdenspace/ITE-G6-Y3S2-Graphics-OpenGL.git
 
-# Tools:
+##### Tools:
 
 Visual Studio 2019
 "Win32 Console Application"
