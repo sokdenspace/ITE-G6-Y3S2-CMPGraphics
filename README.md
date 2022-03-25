@@ -17,10 +17,10 @@ deprecated/legacy OpenGL 1.1 (docs: https://docs.microsoft.com/en-us/windows/des
 # Spoiler
 
 # 1. Configurations `All Platforms`
-Configuration: All Configurations
-Platforms: All Platforms
+Configuration: All Configurations<br />
+Platforms: All Platforms<br />
 
-`VC++ Directories -> Include Directories:`
+`VC++ Directories -> Include Directories:`<br />
 $(SolutionDir)Dependencies\freeglut\include
 $(SolutionDir)Dependencies\glew\include
 
