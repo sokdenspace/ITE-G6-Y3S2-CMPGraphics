@@ -1,0 +1,6 @@
+﻿  Lab2.cpp
+D:\MyProjects\Programming\Software\GraphicsOpenGL\Lab2.cpp(36,46): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+D:\MyProjects\Programming\Software\GraphicsOpenGL\Lab2.cpp(52,38): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  GraphicsOpenGL.vcxproj -> D:\MyProjects\Programming\Software\GraphicsOpenGL\x64\Debug\GraphicsOpenGL.exe
+  0 File(s) copied
+  0 File(s) copied
