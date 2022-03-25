@@ -9,9 +9,9 @@
 
 ### Tools:
 
-Visual Studio 2019
-"Win32 Console Application"
-FreeGLUT
+IDE: Visual Studio 2019																	<br/>
+"Win32 Console Application"																<br/>
+FreeGLUT																				<br/>
 deprecated/legacy OpenGL 1.1 (docs: https://docs.microsoft.com/en-us/windows/desktop/opengl/opengl)
 
 ### Settings:
@@ -31,41 +31,41 @@ $(SolutionDir)Dependencies\freeglut\lib\$(Platform)										<br/>
 $(SolutionDir)Dependencies\glew\lib\Release\$(Platform)									<br/>
 
 `Linker -> Input -> Additional Dependencies`											<br/>
-freeglut.lib
-glew32.lib
+freeglut.lib																			<br/>
+glew32.lib																				<br/>
 
 `Build Events -> Post-Build Event`														<br/>
 xcopy /y /d "$(SolutionDir)Dependencies\freeglut\bin\Win32\freeglut.dll" "$(OutDir)"	<br/>
 xcopy /y /d "$(SolutionDir)Dependencies\glew\bin\Release\x64\glew32.dll" "$(OutDir)"	<br/>
 
-# `OR`
+# `OR`																					<br/>
 
 `C/C++ -> Genaral -> Additional Include Directories:`									<br/>
 $(SolutionDir)Dependencies\freeglut\include												<br/>
 $(SolutionDir)Dependencies\glew\include													<br/>
 
 `Linker -> Input -> Additional Dependencies`											<br/>
-freeglut.lib
-glew32.lib
+freeglut.lib																			<br/>
+glew32.lib																				<br/>
 
 `Build Events -> Post-Build Event`														<br/>
 xcopy /y /d "$(SolutionDir)Dependencies\freeglut\bin\Win32\freeglut.dll" "$(OutDir)"	<br/>
 xcopy /y /d "$(SolutionDir)Dependencies\glew\bin\Release\x64\glew32.dll" "$(OutDir)"	<br/>
 
-# 2. Configurations `Win32`
+# 2. Configurations `Win32`																<br/>
 Configuration: All Configurations														<br/>
 Platforms: Win32																		<br/>
 
 `Linker -> General -> Additional Library Directories:`									<br/>
 $(SolutionDir)Dependencies\freeglut\lib\Win32											<br/>
 
-`Build Events -> Post-Build Event`
-xcopy /y /d "$(SolutionDir)Dependencies\freeglut\bin\Win32\freeglut.dll" "$(OutDir)"
-xcopy /y /d "$(SolutionDir)Dependencies\glew\bin\Release\x64\glew32.dll" "$(OutDir)"
+`Build Events -> Post-Build Event`														<br/>
+xcopy /y /d "$(SolutionDir)Dependencies\freeglut\bin\Win32\freeglut.dll" "$(OutDir)"	<br/>
+xcopy /y /d "$(SolutionDir)Dependencies\glew\bin\Release\x64\glew32.dll" "$(OutDir)"	<br/>
 
-# 3. Configurations `x64`
-Configuration: All Configurations
-Platforms: x64
+# 3. Configurations `x64`																<br/>
+Configuration: All Configurations														<br/>
+Platforms: x64																			<br/>
 
 `Linker -> General -> Additional Library Directories:`									<br/>
 $(SolutionDir)Dependencies\freeglut\lib\Win64											<br/>
