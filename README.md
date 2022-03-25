@@ -4,8 +4,8 @@
 
 ------------------------------
 
-### GitHub: https://github.com/sokdenspace/ITE-G6-Y3S2-Graphics-OpenGL
-### git clone https://github.com/sokdenspace/ITE-G6-Y3S2-Graphics-OpenGL.git
+### GitHub: https://github.com/sokdenspace/ITE-G6-Y3S2-CMPGraphics
+### git clone https://github.com/sokdenspace/ITE-G6-Y3S2-CMPGraphics.git
 
 ### Tools:
 
