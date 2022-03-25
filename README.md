@@ -1,21 +1,22 @@
-# Author: `Sok Den`
+# Author: Sok Den
 # Date created: 03/25/2022
-# Licence: `Sok Den`
+# Licence: Sok Den
 
-## https://github.com/sokdenspace/ITE-G6-Y3S2-Graphics-OpenGL.git
+# https://github.com/sokdenspace/ITE-G6-Y3S2-Graphics-OpenGL
+# git clone https://github.com/sokdenspace/ITE-G6-Y3S2-Graphics-OpenGL.git
 
-### Tools:
+# Tools:
 
 Visual Studio 2019
 "Win32 Console Application"
 FreeGLUT
 deprecated/legacy OpenGL 1.1 (docs: https://docs.microsoft.com/en-us/windows/desktop/opengl/opengl)
 
-### Settings:
+# Settings:
 
-## Spoiler
+# Spoiler
 
-## 1. Configurations `All Platforms`
+# 1. Configurations `All Platforms`
 Configuration: All Configurations
 Platforms: All Platforms
 
@@ -73,4 +74,4 @@ xcopy /y /d "$(SolutionDir)Dependencies\glew\bin\Release\x64\glew32.dll" "$(OutD
 
 `Main.cpp`
 
-## Spoiler
+# Spoiler
